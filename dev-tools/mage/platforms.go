@@ -49,7 +49,7 @@ var BuildPlatforms = BuildPlatformList{
 	{"linux/mips64", CGOSupported | CrossBuildSupported},
 	{"linux/mips64le", CGOSupported | CrossBuildSupported},
 	{"linux/mipsle", CGOSupported | CrossBuildSupported},
-	{"linux/ppc64", CrossBuildSupported},
+	{"linux/ppc64", CGOSupported | CrossBuildSupported},
 	{"linux/ppc64le", CGOSupported | CrossBuildSupported},
 	{"linux/s390x", CGOSupported | CrossBuildSupported},
 	{"nacl/386", 0},
